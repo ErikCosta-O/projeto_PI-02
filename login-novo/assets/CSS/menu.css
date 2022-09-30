@@ -1,0 +1,55 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+CSS reset 
+*, *:before, *:after { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+Menu lateral (não mexer)
+aside {
+    position: fixed;
+    top:0;
+    right:0;
+    z-index:0;
+    display:flex;
+}
+#menu-opener {
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+#menu-area {
+    width: 0px;
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all ease .50s;
+    border-radius: 0px 0px 0px 10px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #423F3E;
+}
+#menu-area ul, #menu-area li {
+    padding: 0vh;
+    list-style: none;
+    font-size: 20px;
+}
+#menu-area li {
+    display:flex;
+    padding: 10px;
+    color: black;
+    cursor:pointer;
+}
+#menu-area li:hover {
+    color: white;
+    background: black;
+    transition-duration: .4s;
+    transition-delay: 2ms;
+}
+#menu-area a{
+    text-decoration: none;
+}
+Menu lateral (não mexer)*/
